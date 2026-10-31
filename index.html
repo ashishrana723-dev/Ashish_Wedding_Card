@@ -753,7 +753,7 @@ const CONFIG = {
   // Wishes: a shared "Wall of Wishes" needs a small online database (free Firebase Firestore). Until you fill apiKey + projectId
   // the section runs in PREVIEW mode: sample wishes only, and what a visitor writes stays on their own device.
   wishes: {
-    firebase: { apiKey: "AIzaSyBDRI7g5je29bcSf9Zp6byzdMC0_7oYTKU", projectId: "ashish-nikita-wedding" },
+    firebase: { apiKey: "AIzaSyBDRI7g5je29bcSf9Zp6byzdMC0_7oYTKU", projectId: "ashish-nikita-wedding", database: "default" },
     collection: "wishes",
     pageSize: 30,           // wishes shown at first; "Show more" adds this many
     refreshSeconds: 90,     // the wall refreshes this often while a guest is looking at it
@@ -1411,7 +1411,7 @@ window.addEventListener('load', () => { measure(); setProgress(progress, false);
   const W = CONFIG.wishes || {}, fb = W.firebase || {};
   const live = !!(fb.apiKey && fb.projectId);
   const COL = W.collection || 'wishes';
-  const API = (W.apiBase || 'https://firestore.googleapis.com/v1') + '/projects/' + encodeURIComponent(fb.projectId || 'x') + '/databases/(default)/documents';
+  const API = (W.apiBase || 'https://firestore.googleapis.com/v1') + '/projects/' + encodeURIComponent(fb.projectId || 'x') + '/databases/' + encodeURIComponent(fb.database || '(default)') + '/documents';
   const KEY = '?key=' + encodeURIComponent(fb.apiKey || '');
   const form = $('#wForm'), nameEl = $('#wName'), descEl = $('#wDesc'), msgEl = $('#wMsg'), hp = $('#wHp');
   const sendBtn = $('#wSend'), out = $('#wOut'), counter = $('#wCount'), thanks = $('#wThanks');
