@@ -730,7 +730,7 @@ const CONFIG = {
   bride: "Nikita",
 
   countdownLabel: "Celebrations begin in",
-  countdownTo: "2026-12-10T08:00:00+05:30",     // IST
+  countdownTo: "2026-12-10T10:00:00+05:30",     // IST
 
   grandparents: [
     { title: "Late Shri", name: "Dayal Singh Rana" },
@@ -742,7 +742,8 @@ const CONFIG = {
     bride: { rel: "Daughter of", parents: ["Sh. Kalyan Singh Rawat", "Smt. Neelam Rawat"] }
   },
 
-  scratchEvent: 2,        // which event the scratch card reveals (0 = Day 1, 1 = Day 2, 2 = Day 3)
+  scratchEvent: 1,        // which event the scratch card reveals (0 = Day 1, 1 = Day 2, 2 = Day 3)
+  scratchLabel: "The Wedding",   // line shown under the revealed date
 
   // Add more numbers any time: { label, name, phone } - phone = 10 digits, India
   contacts: [
@@ -775,10 +776,10 @@ const CONFIG = {
       label: "Day 1", date: "2026-12-10", title: "Haldi & Mehendi", place: HOME,
       qrCaption: "Scan for home address",
       items: [
-        { icon: "🌼", name: "Haldi",   time: "8:00 AM" },    // CHECK: AM or PM?
+        { icon: "🌼", name: "Haldi",   time: "10:00 AM" },
         { icon: "🌿", name: "Mehendi", time: "8:00 PM" }
       ],
-      calStart: "2026-12-10T08:00", calEnd: "2026-12-10T23:00"
+      calStart: "2026-12-10T10:00", calEnd: "2026-12-10T23:00"
     },
     {
       label: "Day 2", date: "2026-12-11", title: "Baraat", place: HOME,
@@ -849,7 +850,7 @@ $('#famBride').innerHTML = famHtml(CONFIG.families.bride, CONFIG.bride);
   const e = events[CONFIG.scratchEvent], d = dateOf(e.date);
   $('#rvDay').textContent = d.getDate();
   $('#rvMon').textContent = d.toLocaleDateString('en-GB', { month: 'long' });
-  $('#rvSub').textContent = e.title + ' · ' + d.toLocaleDateString('en-GB', { weekday: 'long' });
+  $('#rvSub').textContent = (CONFIG.scratchLabel || e.title) + ' · ' + d.toLocaleDateString('en-GB', { weekday: 'long' });
 })();
 
 $('#contacts').innerHTML = CONFIG.contacts.map(c =>
