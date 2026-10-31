@@ -3,7 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Ashish & Nikita - Wedding Invitation</title>
+<title>Ashish weds Nikita - Wedding Invitation</title>
+<meta name="description" content="You are warmly invited to celebrate with us - 10 to 12 December 2026, Dehradun.">
+<meta name="theme-color" content="#5b1220">
+
+<!-- Link preview (WhatsApp, Facebook, iMessage, Telegram, X ...).
+     preview.jpg must sit in the same GitHub folder as this page. If your site address or repo name ever changes, update the two URLs below. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ashish weds Nikita">
+<meta property="og:title" content="Ashish weds Nikita 💍">
+<meta property="og:description" content="You are warmly invited to celebrate with us · 10-12 December 2026 · Dehradun">
+<meta property="og:url" content="https://ashishrana723-dev.github.io/Ashish_Wedding_Card/">
+<meta property="og:image" content="https://ashishrana723-dev.github.io/Ashish_Wedding_Card/preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ashish weds Nikita - wedding invitation, 10 to 12 December 2026">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ashish weds Nikita 💍">
+<meta name="twitter:description" content="You are warmly invited to celebrate with us · 10-12 December 2026 · Dehradun">
+<meta name="twitter:image" content="https://ashishrana723-dev.github.io/Ashish_Wedding_Card/preview.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💍%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&family=Noto+Serif+Devanagari:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -201,46 +221,50 @@
   /* ---------- SLIDER + EVENTS ---------- */
   .events-sec{padding-left:0;padding-right:0;text-align:center}
   .events-sec .head{padding:0 24px}
-  .hint{margin:12px auto 18px;max-width:300px;font-size:13px;line-height:1.55;color:var(--ink);opacity:.85;min-height:40px}
+  .hint{margin:10px auto 12px;max-width:300px;font-size:13px;line-height:1.55;color:var(--ink);opacity:.85;min-height:40px}
   .viewport{overflow:hidden;width:100%}
   .track{display:flex;will-change:transform}
-  .ecard-wrap{padding:6px 24px 18px;flex:0 0 auto;display:flex}
+  .ecard-wrap{padding:4px 24px 22px;flex:0 0 auto;display:flex}
   .ecard{
     flex:1;display:flex;flex-direction:column;
     background:linear-gradient(180deg,#fffaf0,#fff1d2);
-    border:1.5px solid var(--gold);border-radius:24px;padding:26px 20px 22px;text-align:center;
-    box-shadow:0 14px 30px rgba(91,18,32,.16),inset 0 0 0 5px #fffaf0,inset 0 0 0 6px rgba(212,175,55,.5);
+    border:1.5px solid var(--gold);border-radius:22px;padding:16px 16px 14px;text-align:center;
+    box-shadow:0 8px 16px rgba(91,18,32,.15),inset 0 0 0 4px #fffaf0,inset 0 0 0 5px rgba(212,175,55,.5);
     position:relative;
   }
-  .eday{align-self:center;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:#fff;background:var(--maroon);padding:6px 14px;border-radius:30px}
-  .edate{margin:14px 0 4px;color:var(--maroon)}
-  .edate .num{font-family:'Cormorant Garamond',serif;font-size:76px;font-weight:700;line-height:.9;display:block}
-  .edate .mon{font-family:'Great Vibes',cursive;font-size:34px;display:block;color:var(--gold-dark)}
-  .edate .wd{font-size:12px;letter-spacing:.3em;text-transform:uppercase;font-weight:600;color:var(--wine)}
-  .ecard h3{font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--maroon);margin:12px 0 8px}
-  .route{display:flex;align-items:center;justify-content:center;gap:8px;font-size:12px;font-weight:500;color:var(--maroon);margin:0 0 8px}
+  .eday{align-self:center;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:#fff;background:var(--maroon);padding:5px 13px;border-radius:30px}
+  .edate{margin:10px 0 2px;color:var(--maroon);display:flex;align-items:center;justify-content:center;gap:12px;text-align:left}
+  .edate .num{font-family:'Cormorant Garamond',serif;font-size:58px;font-weight:700;line-height:.95}
+  .edate .dm{display:flex;flex-direction:column;align-items:flex-start}
+  .edate .mon{font-family:'Great Vibes',cursive;font-size:28px;line-height:1.3;color:var(--gold-dark);white-space:nowrap}
+  .edate .wd{font-size:11px;letter-spacing:.28em;text-transform:uppercase;font-weight:600;color:var(--wine)}
+  .ecard h3{font-family:'Cormorant Garamond',serif;font-size:23px;color:var(--maroon);margin:6px 0;line-height:1.15}
+  .route{display:flex;align-items:center;justify-content:center;gap:8px;font-size:12px;font-weight:500;color:var(--maroon);margin:0 0 2px}
   .route i{font-style:normal;color:var(--gold-dark)}
-  .mini{display:inline-block;font-size:11.5px;color:var(--gold-dark);margin-bottom:6px}
-  .funcs{list-style:none;margin:6px 0 14px}
-  .funcs li{display:flex;align-items:center;gap:10px;padding:10px 12px;margin-top:8px;border-radius:14px;background:rgba(212,175,55,.14);text-align:left}
-  .funcs .ico{font-size:20px;width:30px;text-align:center;display:flex;justify-content:center}
-  .funcs .ico .hicon{width:30px;height:29px;display:block}
-  .funcs .fn{flex:1;font-weight:500;font-size:14px}
+  .mini{display:inline-block;font-size:11.5px;color:var(--gold-dark);margin-bottom:0}
+  .funcs{list-style:none;margin:2px 0 8px}
+  .funcs li{display:flex;align-items:center;gap:10px;padding:7px 11px;margin-top:6px;border-radius:13px;background:rgba(212,175,55,.14);text-align:left}
+  .funcs .ico{font-size:18px;width:28px;text-align:center;display:flex;justify-content:center}
+  .funcs .ico .hicon{width:28px;height:27px;display:block}
+  .funcs .fn{flex:1;font-weight:500;font-size:13.5px}
   .funcs .tm{font-weight:600;color:var(--maroon);font-size:13px;white-space:nowrap}
   .funcs .tm.tba{font-weight:500;opacity:.7;font-style:italic}
-  .venue{margin:6px 0 14px}
-  .venue strong{font-family:'Cormorant Garamond',serif;font-size:21px;color:var(--maroon)}
-  .venue p{font-size:12.5px;line-height:1.55;opacity:.85;margin-top:3px}
+  .venue{margin:4px 0 10px}
+  .venue strong{font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--maroon)}
+  .venue p{font-size:12px;line-height:1.45;opacity:.85;margin-top:2px}
   .venue p.lm{color:var(--gold-dark);font-weight:500;opacity:1}
-  .qrrow{margin-top:auto;display:flex;gap:14px;align-items:center;justify-content:center;padding-top:14px;border-top:1px dashed rgba(138,106,18,.5)}
-  .qr{width:104px;height:104px;padding:6px;background:#fff6e3;border-radius:10px;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-size:11px;flex:0 0 auto}
+  .qrrow{margin-top:auto;display:flex;gap:12px;align-items:center;justify-content:center;padding-top:10px;border-top:1px dashed rgba(138,106,18,.5)}
+  .qr{width:92px;height:92px;padding:5px;background:#fff6e3;border-radius:10px;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-size:11px;flex:0 0 auto}
   .qr img,.qr canvas{max-width:100%;height:auto}
   .qr svg{width:100%;height:100%;display:block;border-radius:4px}
-  .qrtxt{display:flex;flex-direction:column;gap:8px;align-items:flex-start;text-align:left}
-  .qrtxt small{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark);font-weight:500}
+  .qrtxt{display:flex;flex-direction:column;gap:6px;align-items:flex-start;text-align:left;min-width:0}
+  .qrtxt small{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark);font-weight:500}
+  .qrtxt > .btn{padding:8px 14px}
+  .btnrow{display:flex;gap:6px;flex-wrap:wrap}
+  .btnrow .btn{font-size:11px;padding:7px 11px}
 
   .slider{
-    position:relative;height:64px;margin:12px 24px 0;border-radius:40px;
+    position:relative;height:64px;margin:4px 24px 0;border-radius:40px;
     background:linear-gradient(180deg,var(--maroon-deep),var(--wine));
     box-shadow:inset 0 3px 8px rgba(0,0,0,.5),0 6px 16px rgba(54,8,15,.25);
     user-select:none;-webkit-user-select:none;
@@ -257,7 +281,7 @@
   .handle:focus-visible{outline:3px solid #fff;outline-offset:2px}
   .nudge .handle{animation:nudge 1.6s ease-in-out infinite}
   @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(12px)}}
-  .dots{display:flex;gap:10px;justify-content:center;margin-top:18px}
+  .dots{display:flex;gap:10px;justify-content:center;margin-top:12px}
   .dot{width:10px;height:10px;border-radius:50%;border:1px solid var(--gold-dark);background:transparent;cursor:pointer;padding:0;transition:all .3s}
   .dot.on{background:var(--gold-dark);width:26px;border-radius:10px}
 
@@ -310,6 +334,11 @@
   .foot .sign{font-family:'Great Vibes',cursive;font-size:44px;color:var(--maroon)}
   .foot p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:19px;margin-bottom:18px;line-height:1.5}
   .foot .btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+  .foot .thanks{display:block;font-family:'Great Vibes',cursive;font-size:min(84px,16.5vw);white-space:nowrap;line-height:1.1;padding:.5em .3em .16em;margin:-.3em 0 -.1em;pointer-events:none}
+  .foot .withlove{margin:0 0 2px;font-size:18px}
+  .foot .and{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:18px;opacity:.8}
+  .heartbeat{display:inline-block;color:#b3243b;font-size:22px;margin-top:8px;animation:beat 1.4s ease-in-out infinite}
+  @keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.25)}30%{transform:scale(1)}45%{transform:scale(1.18)}}
 
   #music{
     position:fixed;right:14px;bottom:14px;z-index:60;width:46px;height:46px;border-radius:50%;border:1px solid var(--gold);
@@ -320,10 +349,68 @@
   #music.off::after{content:"";position:absolute;left:11px;right:11px;top:50%;height:2px;margin-top:-1px;background:var(--gold-light);transform:rotate(-45deg);border-radius:2px}
   .seal-sub{margin-top:8px;color:var(--gold-light);opacity:.8;font-size:11px;letter-spacing:.2em;text-shadow:0 2px 8px #000}
   #confetti{position:fixed;inset:0;pointer-events:none;z-index:90}
+  /* ---------- WISHES ---------- */
+  [hidden]{display:none !important}
+  .wish-sec,.wall-sec{text-align:center}
+  .wall-sec{padding-top:24px}
+  .wform{margin:22px auto 0;max-width:420px;text-align:left;background:linear-gradient(180deg,#fffaf0,#fff1d2);border:1.5px solid var(--gold);border-radius:22px;padding:20px 18px 16px;box-shadow:0 10px 22px rgba(91,18,32,.14),inset 0 0 0 4px #fffaf0,inset 0 0 0 5px rgba(212,175,55,.5);position:relative}
+  .wf{display:block;margin-bottom:14px}
+  .wf>span{display:block;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dark);font-weight:600;margin-bottom:6px}
+  .wf>span i{color:#b3243b;font-style:normal}
+  .wf>span em{text-transform:none;letter-spacing:0;font-weight:400;opacity:.75;font-style:normal}
+  .wf input,.wf textarea{width:100%;font-family:inherit;font-size:16px;color:var(--ink);background:#fffdf6;border:1.5px solid rgba(138,106,18,.45);border-radius:12px;padding:11px 13px;outline:none;transition:border-color .2s,box-shadow .2s;-webkit-appearance:none;appearance:none}
+  .wf textarea{min-height:104px;line-height:1.5;resize:vertical;display:block}
+  .wf input:focus,.wf textarea:focus{border-color:var(--maroon);box-shadow:0 0 0 3px rgba(212,175,55,.35)}
+  .count{display:block;text-align:right;font-size:11px;opacity:.6;margin-top:4px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin:-2px 0 14px}
+  .qchip{font-family:inherit;font-size:12px;line-height:1.3;color:var(--maroon);background:rgba(212,175,55,.16);border:1px solid rgba(138,106,18,.4);border-radius:30px;padding:7px 11px;cursor:pointer;text-align:left}
+  .qchip:active{background:var(--maroon);color:var(--gold-light)}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
+  .wsend{width:100%;padding:13px 16px;font-size:14px}
+  .wsend:disabled{opacity:.45;cursor:not-allowed}
+  .wmsg{min-height:18px;margin-top:10px;font-size:12.5px;color:var(--wine);text-align:center;line-height:1.45}
+  .wthanks{margin:22px auto 0;max-width:420px;padding:26px 20px;border-radius:22px;background:linear-gradient(160deg,var(--wine),var(--maroon-deep));color:var(--gold-light);box-shadow:0 12px 26px rgba(54,8,15,.28)}
+  .wthanks .wt-ico{font-size:34px}
+  .wthanks h3{font-family:'Cormorant Garamond',serif;font-size:28px;margin:4px 0 4px;overflow-wrap:anywhere}
+  .wthanks p{font-size:13px;opacity:.9;margin-bottom:16px}
+  .wt-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+  .wthanks .btn{background:var(--gold);color:var(--maroon-deep)}
+  .wthanks .btn.ghost{background:transparent;color:var(--gold-light);border:1px solid var(--gold-light)}
+
+  .wallbtn{width:100%;max-width:420px;display:flex;align-items:center;gap:12px;margin:20px auto 0;background:linear-gradient(160deg,var(--wine),var(--maroon-deep));color:var(--gold-light);border:none;border-radius:40px;padding:12px 20px;cursor:pointer;font-family:inherit;box-shadow:0 8px 18px rgba(54,8,15,.25);text-align:left;transition:transform .15s}
+  .wallbtn:active{transform:scale(.985)}
+  .wallbtn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+  .wallbtn .wi{font-size:26px;line-height:1}
+  .wallbtn .wt{flex:1;display:flex;flex-direction:column;font-family:'Cormorant Garamond',serif;font-size:23px;font-weight:700;line-height:1.1}
+  .wallbtn .wt small{font-family:'Poppins',sans-serif;font-size:11px;font-weight:400;letter-spacing:.04em;opacity:.8;margin-top:3px}
+  .wallbtn .wch{font-size:24px;line-height:1;transition:transform .4s}
+  .wallbtn[aria-expanded=true] .wch{transform:rotate(180deg)}
+  .wallpanel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s cubic-bezier(.22,.9,.3,1)}
+  .wallpanel.open{grid-template-rows:1fr}
+  .wallinner{overflow:hidden;min-height:0;padding:0 10px;visibility:hidden;transition:visibility 0s .6s}
+  .wallpanel.open .wallinner{visibility:visible;transition:visibility 0s}
+  .wall{column-width:210px;column-gap:14px;margin:22px auto 0;text-align:left;padding:8px 6px 14px}
+  .wc{break-inside:avoid;-webkit-column-break-inside:avoid;display:inline-block;width:100%;margin:0 0 16px;padding:18px 15px 13px;border-radius:6px 6px 14px 14px;background:#fffaf0;border:1px solid rgba(212,175,55,.6);box-shadow:0 8px 18px rgba(91,18,32,.12);transform:rotate(var(--tilt,0deg));position:relative}
+  .wc::before{content:"";position:absolute;top:-9px;left:50%;width:46px;height:16px;margin-left:-23px;background:rgba(212,175,55,.55);border-radius:3px;transform:rotate(-3deg)}
+  .wc.c1{background:#fff0f2;border-color:rgba(179,36,59,.35)}
+  .wc.c2{background:#f9f2dc}
+  .wc.c3{background:#fdf3e7}
+  .wc-msg{font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1.35;color:var(--ink);white-space:pre-wrap;overflow-wrap:anywhere}
+  .wc-by{margin-top:10px;padding-top:8px;border-top:1px dashed rgba(138,106,18,.4)}
+  .wc-name{font-weight:600;font-size:13px;color:var(--maroon);overflow-wrap:anywhere}
+  .wc-desc{font-size:11.5px;color:var(--gold-dark);margin-top:1px;overflow-wrap:anywhere}
+  .wc-time{font-size:10.5px;opacity:.55;margin-top:3px}
+  .wc.pop{animation:wpop .7s cubic-bezier(.2,.9,.3,1.3) both}
+  @keyframes wpop{from{opacity:0;transform:scale(.75) rotate(var(--tilt,0deg))}to{opacity:1;transform:rotate(var(--tilt,0deg))}}
+  .skel{display:block;break-inside:avoid;height:120px;border-radius:12px;margin:0 0 16px;background:linear-gradient(90deg,#f6e8c2,#fff6e3,#f6e8c2);background-size:200% 100%;animation:skel 1.4s linear infinite}
+  @keyframes skel{to{background-position:-200% 0}}
+  .wall-state{font-size:12.5px;line-height:1.5;opacity:.8;max-width:330px;margin:6px auto 10px}
+
 
   @media (prefers-reduced-motion:reduce){
     .petal,.spark{display:none}
-    .nudge .handle,.seal,.scroll-hint,.cloud,.ring,.cta,.diya::before,.diya .fg,.diya.lit .flame,#rider.moving .hop,#rider.moving .note{animation:none}
+    .wallpanel,.wallpanel .wallinner{transition:none}
+    .nudge .handle,.seal,.scroll-hint,.cloud,.ring,.cta,.heartbeat,.wc.pop,.skel,.diya::before,.diya .fg,.diya.lit .flame,#rider.moving .hop,#rider.moving .note{animation:none}
   }
 </style>
 </head>
@@ -548,11 +635,64 @@
     <div id="contacts"></div>
   </section>
 
+  <!-- ================= WISHES: FORM ================= -->
+  <section class="wish-sec" id="wishes">
+    <div class="reveal">
+      <div class="eyebrow">Leave a little love</div>
+      <h2 class="title">Your Words, Our Memories</h2>
+      <p class="sub">Write us a few lines. Every wish you leave is kept on our Wall of Wishes, and we will read each one with a smile.</p>
+
+      <form class="wform" id="wForm" novalidate>
+        <label class="wf"><span>Your name <i>*</i></span>
+          <input id="wName" type="text" maxlength="60" placeholder="e.g. Rahul Sharma" autocomplete="name" required></label>
+        <label class="wf"><span>A little about you <em>(how do you know us?)</em></span>
+          <input id="wDesc" type="text" maxlength="80" placeholder="e.g. Ashish's college friend"></label>
+        <label class="wf"><span>Your wishes <i>*</i></span>
+          <textarea id="wMsg" rows="4" maxlength="500" placeholder="Write your wishes for Ashish &amp; Nikita..." required></textarea>
+          <small class="count" id="wCount">0 / 500</small></label>
+        <div class="chips" id="wChips" aria-label="Quick wishes you can tap"></div>
+        <input class="hp" type="text" id="wHp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn wsend" id="wSend" type="submit" disabled>Send my wishes 💌</button>
+        <p class="wmsg" id="wOut" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="wthanks" id="wThanks" hidden>
+        <div class="wt-ico">💞</div>
+        <h3 id="wThanksH">Thank you!</h3>
+        <p>Your wishes are now on our Wall of Wishes.</p>
+        <div class="wt-btns"><a class="btn" href="#wall">See the wall ↓</a><button class="btn ghost" id="wAgain" type="button">Write another</button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WALL OF WISHES ================= -->
+  <section class="wall-sec" id="wall">
+    <div class="reveal">
+      <div class="eyebrow">Love from our people</div>
+      <button class="wallbtn" id="wallToggle" type="button" aria-expanded="false" aria-controls="wallBody">
+        <span class="wi" aria-hidden="true">💌</span>
+        <span class="wt">Wall of Wishes<small id="wallCount">Tap to read what everyone wrote</small></span>
+        <span class="wch" aria-hidden="true">⌄</span>
+      </button>
+    </div>
+    <div class="wallpanel" id="wallBody">
+      <div class="wallinner">
+        <div class="wall" id="wallGrid" aria-live="polite"></div>
+        <p class="wall-state" id="wallState"></p>
+        <button class="btn ghost" id="wallMore" type="button" hidden>Show more wishes</button>
+      </div>
+    </div>
+  </section>
+
   <!-- ================= FOOTER ================= -->
-  <section class="foot reveal">
+  <section class="foot reveal" id="thanks">
     <div class="divider">❁</div>
     <p>Your presence is the greatest gift.<br>We can't wait to celebrate with you.</p>
+    <span class="thanks gold-text" id="thanksTxt">Thank you</span>
+    <p class="withlove">With love &amp; gratitude</p>
     <div class="sign" id="signoff"></div>
+    <div class="and">and families</div>
+    <div class="heartbeat" aria-hidden="true">♥</div>
     <div class="btns">
       <button class="btn ghost" id="icsAll">Save all dates to calendar</button>
     </div>
@@ -609,6 +749,17 @@ const CONFIG = {
     { label: "For any queries", name: "", phone: "7535975283" },
     { label: "For any queries", name: "", phone: "9459225126" }
   ],
+
+  // Wishes: a shared "Wall of Wishes" needs a small online database (free Firebase Firestore). Until you fill apiKey + projectId
+  // the section runs in PREVIEW mode: sample wishes only, and what a visitor writes stays on their own device.
+  wishes: {
+    firebase: { apiKey: "AIzaSyBDRI7g5je29bcSf9Zp6byzdMC0_7oYTKU", projectId: "ashish-nikita-wedding" },
+    collection: "wishes",
+    pageSize: 30,           // wishes shown at first; "Show more" adds this many
+    refreshSeconds: 90,     // the wall refreshes this often while a guest is looking at it
+    cooldownSeconds: 30,    // one wish per device per 30 seconds (stops accidental double-sends)
+    apiBase: ""             // leave empty
+  },
 
   musicVolume: 1,         // 1 = very soft (default). 1.5 = a little louder, 0.6 = even quieter
   musicUrl: "",           // leave "" to use the built-in soft instrumental. Or paste a direct .mp3 link / file name to play your own song instead
@@ -680,7 +831,7 @@ $('#cdLabel').textContent = CONFIG.countdownLabel;
   $('#heroDays').addEventListener('click', ev => {
     const b = ev.target.closest('.chip'); if (!b) return;
     goTo(+b.dataset.i);
-    $('#events').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    focusEvents(true);
   });
 })();
 
@@ -816,7 +967,7 @@ function openCurtains(){
   curtains.classList.add('open');
   document.body.classList.add('opened');
   music.start();
-  startPetals();
+  petalsOn = true; startPetals();
   setTimeout(() => {
     curtains.classList.add('gone');
     document.documentElement.classList.remove('locked');
@@ -830,13 +981,32 @@ curtains.addEventListener('click', e => { if (e.target.classList.contains('curta
 function startPetals(){
   if (reduceMotion) return;
   const box = $('#petals');
-  for (let i = 0; i < 16; i++){
+  box.textContent = '';
+  for (let i = 0; i < 24; i++){
     const p = document.createElement('span');
     p.className = 'petal' + (i % 4 === 0 ? ' gold' : '');
-    const s = 9 + Math.random() * 12;
-    p.style.cssText = 'left:' + (Math.random()*100) + '%;width:' + s + 'px;height:' + (s*1.1) + 'px;animation-duration:' + (9 + Math.random()*9) + 's;animation-delay:' + (Math.random()*8) + 's';
+    const s = 10 + Math.random() * 12, dur = 9 + Math.random() * 9;
+    /* negative delay = already part-way down the screen the moment the curtains open (no empty first seconds) */
+    p.style.cssText = 'left:' + (Math.random()*100) + '%;width:' + s + 'px;height:' + (s*1.1) + 'px;animation-duration:' + dur + 's;animation-delay:-' + (Math.random()*dur) + 's';
     box.appendChild(p);
   }
+}
+/* iOS can freeze CSS animations after the app was in the background or the page came back from the cache: rebuild the petals */
+let petalsOn = false;
+function petalsRefresh(){ if (petalsOn && !document.hidden) startPetals(); }
+document.addEventListener('visibilitychange', petalsRefresh);
+window.addEventListener('pageshow', petalsRefresh);
+/* add ?debug to the link to see an on-screen status line (reduce-motion setting, petal count, whether they are moving) */
+if (/[?&#]debug/i.test(location.href)){
+  const b = document.createElement('div');
+  b.style.cssText = 'position:fixed;left:6px;top:6px;z-index:9999;background:rgba(0,0,0,.8);color:#7CFC7C;font:11px/1.45 monospace;padding:6px 8px;border-radius:6px;max-width:92vw;pointer-events:none;white-space:pre';
+  document.body.appendChild(b);
+  let prev = '';
+  setInterval(() => {
+    const p = document.querySelector('.petal'), t = p ? getComputedStyle(p).transform : 'none';
+    b.textContent = 'reduce-motion setting ON: ' + reduceMotion + '\npetals on page: ' + document.querySelectorAll('.petal').length + '\npetal moving: ' + (t !== prev) + '\nscreen: ' + innerWidth + 'x' + innerHeight + ' @' + devicePixelRatio + 'x';
+    prev = t;
+  }, 1000);
 }
 
 /* ---------- tap sparkles ---------- */
@@ -855,7 +1025,7 @@ function spark(x, y, n){
 }
 document.addEventListener('pointerdown', e => {
   if (!curtains.classList.contains('gone')) return;
-  if (e.target.closest('#scratch, .handle, input[type=range]')) return;
+  if (e.target.closest('#scratch, .handle, input[type=range], #wForm')) return;
   spark(e.clientX, e.clientY, 6);
 });
 
@@ -1009,9 +1179,9 @@ track.innerHTML = events.map((e, i) => {
   '<div class="ecard-wrap" style="width:' + (100/N) + '%">' +
     '<article class="ecard">' +
       '<span class="eday">' + esc(e.label) + '</span>' +
-      '<div class="edate"><span class="num">' + d.getDate() + '</span>' +
+      '<div class="edate"><span class="num">' + d.getDate() + '</span><span class="dm">' +
         '<span class="mon">' + d.toLocaleDateString('en-GB', { month: 'long' }) + ' ' + d.getFullYear() + '</span>' +
-        '<span class="wd">' + d.toLocaleDateString('en-GB', { weekday: 'long' }) + '</span></div>' +
+        '<span class="wd">' + d.toLocaleDateString('en-GB', { weekday: 'long' }) + '</span></span></div>' +
       '<h3>' + esc(e.title) + '</h3>' +
       (e.route ? '<div class="route"><span>📍 ' + esc(e.route.from) + '</span><i>➜</i><span>' + esc(e.route.to) + '</span></div><a class="mini" href="#baraat">See the route map ↓</a>' : '') +
       '<ul class="funcs">' + e.items.map(it =>
@@ -1023,8 +1193,8 @@ track.innerHTML = events.map((e, i) => {
         '<div class="qr" id="qr' + i + '"></div>' +
         '<div class="qrtxt"><small>' + esc(e.qrCaption) + '</small>' +
           '<a class="btn" href="' + mapsLink(p) + '" target="_blank" rel="noopener">Open in Maps</a>' +
-          '<button class="btn ghost" data-copy="' + i + '">Copy address</button>' +
-          '<button class="btn ghost" data-cal="' + i + '">Add to calendar</button></div>' +
+          '<div class="btnrow"><button class="btn ghost" data-copy="' + i + '" aria-label="Copy address">📋 Copy</button>' +
+          '<button class="btn ghost" data-cal="' + i + '" aria-label="Add to calendar">📅 Calendar</button></div></div>' +
       '</div>' +
     '</article>' +
   '</div>';
@@ -1115,16 +1285,25 @@ function setProgress(p, animate){
   dots.forEach((d, i) => d.classList.toggle('on', i === idx));
   handle.setAttribute('aria-valuenow', idx + 1);
   hint.textContent =
-    progress === 0 ? 'Drag the circle to the right to reveal all the dates, venues and functions. You can also swipe the cards.' :
+    progress === 0 ? 'Drag the circle to the right (or swipe the card) to see every date, venue and function.' :
     idx < N - 1 ? 'Day ' + (idx + 1) + ' of ' + N + ' - keep going to see what is next.' :
     'That is everything. See you there!';
 }
 function goTo(i){ slider.classList.remove('nudge'); setProgress(clamp(i, 0, N - 1) / (N - 1), true); }
+/* scroll so the card AND the slider are fully on screen together (centred), so the top of the card is never cut off */
+function focusEvents(force){
+  const top = $('#viewport').getBoundingClientRect().top, bottom = dotsEl.getBoundingClientRect().bottom, H = window.innerHeight, h = bottom - top;
+  if (!force && top >= 8 && bottom <= H - 8) return;
+  const want = h <= H - 24 ? (H - h) / 2 : 12;
+  const delta = top - want;
+  if (Math.abs(delta) > 4) window.scrollBy({ top: delta, behavior: reduceMotion ? 'auto' : 'smooth' });
+}
 function snap(){ setProgress(curIndex() / (N - 1), true); }
 
 handle.addEventListener('pointerdown', e => {
   dragging = true; startX = e.clientX; startLeft = progress * maxLeft;
   handle.setPointerCapture(e.pointerId); slider.classList.remove('nudge');
+  focusEvents(false);
 });
 handle.addEventListener('pointermove', e => { if (dragging) setProgress((startLeft + e.clientX - startX) / maxLeft, false); });
 ['pointerup', 'pointercancel'].forEach(ev => handle.addEventListener(ev, () => { if (dragging){ dragging = false; snap(); } }));
@@ -1132,7 +1311,7 @@ handle.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') goTo(curIndex() + 1);
   if (e.key === 'ArrowLeft')  goTo(curIndex() - 1);
 });
-dotsEl.addEventListener('click', e => { const b = e.target.closest('.dot'); if (b) goTo(+b.dataset.i); });
+dotsEl.addEventListener('click', e => { const b = e.target.closest('.dot'); if (b){ goTo(+b.dataset.i); focusEvents(false); } });
 
 let tx = 0, ty = 0;
 const vp = $('#viewport');
@@ -1226,6 +1405,218 @@ window.addEventListener('load', () => { measure(); setProgress(progress, false);
     mio.observe($('#mapCard'));
   }
 })();
+
+/* ---------- Wishes: leave a note + Wall of Wishes ---------- */
+(function wishes(){
+  const W = CONFIG.wishes || {}, fb = W.firebase || {};
+  const live = !!(fb.apiKey && fb.projectId);
+  const COL = W.collection || 'wishes';
+  const API = (W.apiBase || 'https://firestore.googleapis.com/v1') + '/projects/' + encodeURIComponent(fb.projectId || 'x') + '/databases/(default)/documents';
+  const KEY = '?key=' + encodeURIComponent(fb.apiKey || '');
+  const form = $('#wForm'), nameEl = $('#wName'), descEl = $('#wDesc'), msgEl = $('#wMsg'), hp = $('#wHp');
+  const sendBtn = $('#wSend'), out = $('#wOut'), counter = $('#wCount'), thanks = $('#wThanks');
+  const grid = $('#wallGrid'), state = $('#wallState'), moreBtn = $('#wallMore'), totalEl = $('#wallCount');
+  const PREVIEW_KEY = 'wishes_preview_v1', LAST_KEY = 'wish_last_sent';
+  const store = {
+    get(k){ try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set(k, v){ try { localStorage.setItem(k, v); } catch (e) {} }
+  };
+  const pageSize = clamp(+W.pageSize || 30, 5, 100);
+  let limit = pageSize, list = [], loaded = false, busy = false, visible = false, popId = null;
+
+  const SAMPLES = [
+    { id: 's1', sample: true, name: 'Aanya', description: "Nikita's best friend", message: "So happy for you both! Can't wait to dance at the sangeet 💃", t: null },
+    { id: 's2', sample: true, name: 'Rohan Uncle', description: 'Family', message: 'May your life together be filled with laughter, patience and endless chai. God bless you both. 🙏', t: null },
+    { id: 's3', sample: true, name: 'Meera', description: "Ashish's colleague", message: 'Congratulations Ashish & Nikita! Wishing you a lifetime of love.', t: null }
+  ];
+  const QUICK = [
+    'Congratulations on your wedding! 🎉',
+    'Wishing you a lifetime of love and happiness 💞',
+    'May your journey together be beautiful ✨'
+  ];
+
+  /* ---- helpers ---- */
+  const clean = (s, max) => String(s || '').replace(/\s+/g, ' ').trim().slice(0, max);
+  const cleanMsg = s => String(s || '').replace(/\r/g, '').replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim().slice(0, 500);
+  const hasLink = t => /https?:\/\/|www\./i.test(t);
+  function ago(d){
+    const m = Math.round((Date.now() - d.getTime()) / 60000);
+    if (m < 1) return 'just now';
+    if (m < 60) return m + ' min ago';
+    if (m < 1440) return Math.round(m / 60) + ' h ago';
+    if (m < 10080) return Math.round(m / 1440) + ' d ago';
+    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+  }
+  async function post(url, body){
+    const ctl = new AbortController(), to = setTimeout(() => ctl.abort(), 12000);
+    try {
+      const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), signal: ctl.signal });
+      if (!r.ok){ const e = new Error('HTTP ' + r.status); e.status = r.status; throw e; }
+      return await r.json();
+    } finally { clearTimeout(to); }
+  }
+  function fromDoc(d){
+    const f = d.fields || {}, sv = k => (f[k] && f[k].stringValue) || '';
+    const ts = f.createdAt && f.createdAt.timestampValue;
+    return { id: String(d.name || '').split('/').pop(), name: sv('name'), description: sv('description'), message: sv('message'), t: ts ? new Date(ts) : null };
+  }
+  function previewList(){
+    let mine = [];
+    try { mine = JSON.parse(store.get(PREVIEW_KEY) || '[]'); } catch (e) {}
+    const own = mine.map(o => ({ id: o.id, name: o.name, description: o.description, message: o.message, t: new Date(o.t) })).reverse();
+    return own.concat(SAMPLES);
+  }
+
+  /* ---- read / write ---- */
+  async function fetchAll(){
+    if (!live) return previewList();
+    const res = await post(API + ':runQuery' + KEY, {
+      structuredQuery: { from: [{ collectionId: COL }], orderBy: [{ field: { fieldPath: 'createdAt' }, direction: 'DESCENDING' }], limit: limit }
+    });
+    return (Array.isArray(res) ? res : []).filter(r => r && r.document).map(r => fromDoc(r.document));
+  }
+  async function saveWish(w){
+    if (!live){
+      let mine = [];
+      try { mine = JSON.parse(store.get(PREVIEW_KEY) || '[]'); } catch (e) {}
+      const o = { id: 'local-' + Date.now(), name: w.name, description: w.description, message: w.message, t: w.createdAt.toISOString() };
+      mine.push(o); store.set(PREVIEW_KEY, JSON.stringify(mine.slice(-50)));
+      return { id: o.id, name: o.name, description: o.description, message: o.message, t: new Date(o.t) };
+    }
+    const doc = await post(API + '/' + encodeURIComponent(COL) + KEY, { fields: {
+      name: { stringValue: w.name }, description: { stringValue: w.description },
+      message: { stringValue: w.message }, createdAt: { timestampValue: w.createdAt.toISOString() }
+    } });
+    return fromDoc(doc);
+  }
+
+  /* ---- wall ---- */
+  function card(w, i){
+    const el = document.createElement('article');
+    el.className = 'wc c' + (i % 4) + (w.id === popId ? ' pop' : '');
+    el.style.setProperty('--tilt', ((((i * 7) % 5) - 2) * .45) + 'deg');
+    const m = document.createElement('p'); m.className = 'wc-msg'; m.textContent = w.message;
+    const by = document.createElement('div'); by.className = 'wc-by';
+    const n = document.createElement('div'); n.className = 'wc-name'; n.textContent = '— ' + w.name; by.appendChild(n);
+    if (w.description){ const d = document.createElement('div'); d.className = 'wc-desc'; d.textContent = w.description; by.appendChild(d); }
+    if (w.t){ const t = document.createElement('div'); t.className = 'wc-time'; t.textContent = ago(w.t); by.appendChild(t); }
+    el.appendChild(m); el.appendChild(by);
+    return el;
+  }
+  function sub(){                                   // the line under "Wall of Wishes" on the toggle button
+    const n = list.length;
+    totalEl.textContent = !loaded ? 'Tap to read what everyone wrote'
+      : !live ? 'Preview with sample wishes'
+      : n === 0 ? 'Be the first to leave a wish'
+      : (n >= limit ? limit + '+ wishes' : n + (n === 1 ? ' wish' : ' wishes')) + ' so far';
+  }
+  function render(){
+    grid.textContent = '';
+    list.forEach((w, i) => grid.appendChild(card(w, i)));
+    const n = list.length;
+    sub();
+    moreBtn.hidden = !(live && n >= limit);
+    state.textContent = !live
+      ? 'Preview mode: these are sample wishes, and anything you write is saved only on this device. Add your Firebase details in CONFIG.wishes to share wishes with everyone.'
+      : (n === 0 ? 'No wishes yet - be the first to leave one 💌' : '');
+    popId = null;
+  }
+  function skeleton(){ grid.textContent = ''; for (let i = 0; i < 3; i++){ const s = document.createElement('span'); s.className = 'skel'; grid.appendChild(s); } state.textContent = ''; }
+  async function load(silent){
+    if (busy) return;
+    busy = true;
+    if (!silent && !loaded) skeleton();
+    try { list = await fetchAll(); loaded = true; render(); }
+    catch (e){
+      console.error('wishes: could not load', e);
+      if (!loaded){
+        grid.textContent = ''; state.textContent = "We couldn't load the wishes right now. ";
+        const b = document.createElement('button'); b.type = 'button'; b.className = 'btn ghost'; b.textContent = 'Try again';
+        b.addEventListener('click', () => load(false)); state.appendChild(b);
+      }
+    } finally { busy = false; }
+  }
+  moreBtn.addEventListener('click', () => { limit += pageSize; load(false); });
+  /* ---- collapsible wall: closed by default, and nothing is fetched until a guest opens it ---- */
+  const toggleBtn = $('#wallToggle'), panelEl = $('#wallBody');
+  function setOpen(open, skipLoad){
+    visible = open;
+    panelEl.classList.toggle('open', open);
+    toggleBtn.setAttribute('aria-expanded', String(open));
+    if (open && !loaded && !skipLoad && !busy) load(false);
+  }
+  toggleBtn.addEventListener('click', () => setOpen(!panelEl.classList.contains('open')));
+  setInterval(() => { if (loaded && visible && !document.hidden && !busy) load(true); }, Math.max(30, +W.refreshSeconds || 90) * 1000);
+
+  /* ---- form ---- */
+  const chipBox = $('#wChips');
+  QUICK.forEach(t => {
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'qchip'; b.textContent = t;
+    b.addEventListener('click', () => {
+      msgEl.value = (msgEl.value.trim() ? msgEl.value.trim() + ' ' : '') + t;
+      msgEl.value = msgEl.value.slice(0, 500); check(); msgEl.focus();
+    });
+    chipBox.appendChild(b);
+  });
+  function check(){
+    sendBtn.disabled = !(clean(nameEl.value, 60) && cleanMsg(msgEl.value));
+    counter.textContent = msgEl.value.length + ' / 500';
+  }
+  form.addEventListener('input', check);
+  check();
+
+  form.addEventListener('submit', async ev => {
+    ev.preventDefault();
+    out.textContent = '';
+    const name = clean(nameEl.value, 60), desc = clean(descEl.value, 80), msg = cleanMsg(msgEl.value);
+    if (!name || !msg){ out.textContent = 'Please add your name and your wishes.'; return; }
+    if (hasLink(name + ' ' + desc + ' ' + msg)){ out.textContent = 'Please leave web links out of your wishes.'; return; }
+    const wait = (Math.max(5, +W.cooldownSeconds || 30) * 1000) - (Date.now() - (+store.get(LAST_KEY) || 0));
+    if (wait > 0){ out.textContent = 'Please wait ' + Math.ceil(wait / 1000) + ' seconds before sending another wish.'; return; }
+    if (hp.value){ showThanks(name); return; }                      // a bot filled the hidden field: pretend it worked
+
+    sendBtn.disabled = true; sendBtn.textContent = 'Sending...';
+    try {
+      const saved = await saveWish({ name: name, description: desc, message: msg, createdAt: new Date() });
+      store.set(LAST_KEY, String(Date.now()));
+      if (loaded){ list = [saved].concat(list.filter(x => x.id !== saved.id)); }
+      else { await load(false); if (!list.some(x => x.id === saved.id)) list.unshift(saved); }
+      showThanks(name);
+      const wasOpen = panelEl.classList.contains('open');
+      setOpen(true, true);                                         // open the wall so they see their wish land among the others
+      setTimeout(() => {
+        popId = saved.id; render();
+        const p = grid.querySelector('.pop'); if (p) p.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+      }, wasOpen ? 150 : 750);
+    } catch (e){
+      console.error('wishes: could not send', e);
+      out.textContent = (e && e.status === 403)
+        ? "Sorry, wishes can't be saved right now. Please try again a little later."
+        : "Sorry, that didn't go through. Please check your connection and try again - your words are still here.";
+      sendBtn.textContent = 'Send my wishes 💌'; check();
+    }
+  });
+  function showThanks(name){
+    $('#wThanksH').textContent = 'Thank you, ' + name + '!';
+    form.hidden = true; thanks.hidden = false;
+    if (!reduceMotion){ const r = thanks.getBoundingClientRect(); spark(r.left + r.width / 2, r.top + 40, 16); confetti(); }
+  }
+  const seeWall = thanks.querySelector('a[href="#wall"]');
+  if (seeWall) seeWall.addEventListener('click', () => setOpen(true));         // the link also opens the wall
+  sub();
+  $('#wAgain').addEventListener('click', () => {
+    nameEl.value = ''; descEl.value = ''; msgEl.value = ''; hp.value = '';
+    sendBtn.textContent = 'Send my wishes 💌'; out.textContent = ''; check();
+    thanks.hidden = true; form.hidden = false; nameEl.focus();
+  });
+})();
+
+/* ---------- Thank you: little burst of hearts when it scrolls into view ---------- */
+new IntersectionObserver((es, ob) => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  ob.disconnect();
+  setTimeout(() => { const r = e.target.getBoundingClientRect(); spark(r.left + r.width / 2, r.top + r.height / 2, 18); }, 500);
+}), { threshold: .8 }).observe($('#thanksTxt'));
 
 /* ---------- reminder in the console about unfinished placeholders ---------- */
 (function warnPlaceholders(){
